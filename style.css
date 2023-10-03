@@ -1,0 +1,120 @@
+*{
+    padding: 0PX;
+    margin: 0PX;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.show-content{
+    width: 100%;
+    height: 100vh;
+    font-size: 40px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+   float: left;
+   display: none;
+    /* border: 2px solid red; */
+}
+.main-box{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    /* border: 2px solid rgb(36, 14, 233); */
+}
+h1{
+    width: 100%;
+    float: left;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+  .footer{
+    width: 100%;
+    float: left;
+    position: fixed;
+    bottom: 0;
+    /* margin-bottom: 2px; */
+}  
+.page-icon{
+    width: 100%;
+    /* float: left; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+   /* align-content: space-evenly; */
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.follo-box{
+    /* width: 300px; */
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    border: 2px solid black;
+    /* background-color: brown; */
+    /* box-shadow: 10px 10px 10px color((49, 49, 199)); */
+}
+.mar-1{
+margin: 10px 0px;
+}
+
+.img-post-main{
+    width: 40%;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.gmail-id{
+    width: 100%;
+    font-size: 15px;
+    float: left;
+    text-align: center;
+}
+.img-box-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.one-row-img{
+    width: 33%;
+    /* float: left; */
+
+}
+.ins-rec{
+    width: 100%;
+    float: left;
+    text-align: center;
+    border: 1px solid red;
+}
+.follo-button-1{
+    width: 100%;
+    float: left;
+}
+.follo-button{
+    width: 80px;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    padding: 12px 0px;
+    color: rgb(24, 23, 23);
+    border: 1px solid red;
+    /* background-color: ; */
+
+}
+@media screen and (max-width: 600px){
+    .show-content{
+        display: none;
+    }
+    .container{
+        display: block;
+    }
+}
