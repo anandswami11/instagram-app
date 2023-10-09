@@ -9,6 +9,8 @@
         <meta name="keywords" content="anand frontend developer,anand frontend, anand developer">
         <meta name="description" content="anand is the best frontend developer in india.">
         <meta name="author" content="anand">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
         <link href="style.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     </head>
@@ -18,8 +20,62 @@
             This application is available only for mobile.
         </div>
         <div class="container">
-            <div class="main-box">
-                <h1> home page</h1>
+            
+    <!-- <div class="slick-carousel"> -->
+        <div class="main-box">
+            <div class="img-box">
+                <img class="box-images" src="./images/ins-img-6.jpeg" alt="user images" />
+                <img class="box-images" src="./images/ins-img-7.jpeg" alt="user images" />
+                <img class="box-images" src="./images/ins-img-8.jpeg" alt="user images" />
+                <img class="box-images" src="./images/ins-img-2.jpeg" alt="user images" />
+                <img class="box-images" src="./images/ins-img-9.jpg" alt="user images" />
+                <img class="box-images" src="./images/ins-img.jpeg" alt="user images" />
+               
+                <img class="box-images" src="./images/ins-img-6.jpeg" alt="user images" />
+                <img class="box-images" src="./images/ins-img-7.jpeg" alt="user images" />
+                <img class="box-images" src="./images/ins-img-8.jpeg" alt="user images" />
+                <img class="box-images" src="./images/ins-img-2.jpeg" alt="user images" />
+                <img class="box-images" src="./images/ins-img-9.jpg" alt="user images" />
+                <img class="box-images" src="./images/ins-img.jpeg" alt="user images" />
+              
+                <img class="box-images" src="./images/ins-img-6.jpeg" alt="user images" />
+                <img class="box-images" src="./images/ins-img-7.jpeg" alt="user images" />
+                <img class="box-images" src="./images/ins-img-8.jpeg" alt="user images" />
+                <img class="box-images" src="./images/ins-img-2.jpeg" alt="user images" />
+                <img class="box-images" src="./images/ins-img-9.jpg" alt="user images" />
+                <img class="box-images" src="./images/ins-img.jpeg" alt="user images" />
+              
+            </div>
+    </div>
+   
+</div>
+<div class="footer">
+    <div class="page-icon">
+        <a href="index.html"><i class="fa fa-home" style="font-size:20px"></i></a> 
+        <a href="search.html"><i class="fa fa-search" style="font-size:18px"></i> </a>
+        <a href="upload.html"><img style="width: 18px;" src="./images/upload-icon.jpeg" alt="icon images" /></a>
+        <a href="reels.html"><img style="width: 18px;" src="./images/video.png" alt="icon images" /></a>
+        <a href="profile.html"><img style="width: 20px;" src="./images/user (1).png" alt="icon images" /></a>
+        </div>
+</div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.img-box').slick({
+                dots: true,
+                arrows: true,
+                slidesToShow: 5,
+                slidesToScroll: 2
+            });
+        });
+    </script>
+
+           
+                <!-- <h1> home page</h1> -->
             <!-- <div class="header"> 
                  <div class="app-name">Instagram </div> </div> 
 
@@ -39,14 +95,7 @@
             </div>
                -->
           
-                <div class="footer">
-                    <div class="page-icon" > <a href="index.html"><i class="fa fa-home" style="font-size:24px"></i></a> 
-                        <a href="search.html"><i class="fa fa-search" style="font-size:24px"></i> </a>
-                         <a href="upload.html"><img style="width: 30px;" src="./images/upload.png" alt="icon images" /></a>
-                            <a href="reels.html"><img src="./images/reel.png" alt="icon images" /></a>
-                           <a href="profile.html"><img style="width: 30px;" src="./images/profile.png" alt="icon images" /></a></div>
-                </div>
-            </div>
-        </div>
+            
+      
     </body>
 </html>

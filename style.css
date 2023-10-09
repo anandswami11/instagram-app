@@ -15,6 +15,17 @@ body{
     align-items: center;
     justify-content: center;
 }
+.slick-carousel{
+    width: 90%;
+    margin: 0 auto;
+    /* display: flex;
+    justify-content: space-evenly; */
+    /* border: 2px solid red; */
+}
+
+.slick-next:before, .slick-prev:before{
+    color: black;
+}
 .container{
     width: 100%;
     height: 100vh;
@@ -28,43 +39,58 @@ body{
     margin: 0 auto;
     /* border: 2px solid rgb(36, 14, 233); */
 }
-h1{
+/* h1{
     width: 100%;
     float: left;
-    text-align: center;
+    text-align: center; */
     /* border: 1px solid red; */
+/* } */
+.img-box{
+display: flex;
+justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.box-images{
+    float: left;
+    width: 18%;
+    margin-right: 0.25%;
+    border-radius: 50%;
+    border: 1px solid gray;
 }
   .footer{
     width: 100%;
     float: left;
     position: fixed;
     bottom: 0;
+    padding: 13px 0px;
+    background-color: whitesmoke;
+    /* border: 1px solid red; */
     /* margin-bottom: 2px; */
 }  
 .page-icon{
     width: 100%;
-    /* float: left; */
+    float: left;
     /* border: 1px solid red; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
    /* align-content: space-evenly; */
 }
 a{
     text-decoration: none;
     color: black;
 }
-.follo-box{
+ /* .follo-box{ */
     /* width: 300px; */
-    height: 80%;
+    /* height: 80%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     align-content: space-evenly;
-    border: 2px solid black;
+    border: 2px solid black; */
     /* background-color: brown; */
     /* box-shadow: 10px 10px 10px color((49, 49, 199)); */
-}
-.mar-1{
+/* } */
+/* .mar-1{
 margin: 10px 0px;
 }
 
@@ -88,8 +114,8 @@ margin: 10px 0px;
     width: 33%;
     /* float: left; */
 
-}
-.ins-rec{
+/* } */
+/* .ins-rec{ 
     width: 100%;
     float: left;
     text-align: center;
@@ -106,10 +132,10 @@ margin: 10px 0px;
     border-radius: 15px;
     padding: 12px 0px;
     color: rgb(24, 23, 23);
-    border: 1px solid red;
+    border: 1px solid red; */
     /* background-color: ; */
 
-}
+/* }  */
 @media screen and (max-width: 600px){
     .show-content{
         display: none;
